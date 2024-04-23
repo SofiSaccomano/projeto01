@@ -18,6 +18,7 @@ body{
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     
+    
 }
 
 #menu{
@@ -31,9 +32,7 @@ body{
 }
 
 #conteudo{
-    height: 500px;
-    width: 800px;
-    background-color: rgba(85, 208, 60, 0.808);
+    
     float: left;
     margin-top: 10px;
     margin-left: 5px;
@@ -41,7 +40,7 @@ body{
 
 #lado{
     height: 500px;
-    width: 358px;
+    width: 400px;
     background-color: rgba(213, 23, 77, 0.793);
     float: left;
     margin-left: 5px;
@@ -51,6 +50,27 @@ body{
     
 }
 
+#coluna{
+    height: 400px;
+    width: 70%;
+    background-color: rgba(79, 170, 134, 0.808);
+    float: left;
+    margin: 0;
+    margin-top: 5px;
+    margin-left: 5px;
+    text-align: center;
+    padding: 30px;
+}
+
+#coluna2{
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-block-end: 5px;
+}
+
+
+
 #rodape{
     height: 80px;
     background-color: rgb(166, 162, 165);
@@ -59,14 +79,24 @@ body{
     margin: 0;
     padding: 5px;
     text-align: center;
+    margin-top: 10px;
+    margin-block-end: 5px;  
+}
+
+#img1{
+    height: 500px;
+    width: 800px;
+    
+}
+
+
+img2{
+    float: left;
     
     
 }
 
-img{
-    height: 500px;
-    width: 800px;
-}
+
 
 button{
     background-color: black;
